@@ -1,26 +1,19 @@
 package com.webproject.controllers;
 
-import antlr.StringUtils;
 import com.webproject.annotations.PassToken;
 import com.webproject.annotations.UserLoginToken;
 import com.webproject.models.Person;
 import com.webproject.models.User;
-import com.webproject.repositories.PersonRepository;
-import com.webproject.repositories.UserRepository;
 import com.webproject.result.Result;
 import com.webproject.result.ResultType;
 import com.webproject.services.PersonService;
 import com.webproject.services.UserService;
 import com.webproject.utils.TokenCreator;
-import org.jsoup.helper.StringUtil;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.http.HttpHeaders;
-import org.springframework.http.HttpRequest;
-import org.springframework.web.bind.annotation.*;
-
-import javax.servlet.http.HttpServletRequest;
-import java.util.List;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestHeader;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class MainController {

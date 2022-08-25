@@ -10,4 +10,4 @@ spring:
     show-sql: true
 server:
   port: 8082
-  context-path: /
+  context-path: /api
