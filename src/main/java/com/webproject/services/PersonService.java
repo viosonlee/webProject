@@ -14,7 +14,7 @@ public class PersonService {
 
     public Person findOnByAccount(String account) {
         List<Person> oneByAccount = personRepository.findOneByAccount(account);
-        if (oneByAccount == null || oneByAccount.size() == 0)
+        if (oneByAccount == null || oneByAccount.isEmpty())
             return null;
         return oneByAccount.get(0);
     }

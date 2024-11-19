@@ -17,11 +17,11 @@ public class ExceptionHandler {
 
     @org.springframework.web.bind.annotation.ExceptionHandler(TokenException.class)
     @ResponseBody
-    public Result handleTokenException(HttpServletRequest request, TokenException e) {
+    public Result<Object> handleTokenException(HttpServletRequest request, TokenException e) {
         if (e != null) {
-            return new Result(((TokenException) e).getResultType());
+            return new Result<>(e.getResultType());
         } else {
-            return new Result(ResultType.unkown_error);
+            return new Result<>(ResultType.unkown_error);
         }
     }
 }

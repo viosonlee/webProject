@@ -25,7 +25,7 @@ public class MainController {
     @GetMapping("/register")
     public Result<User> register(@RequestParam(value = "account", required = false) String account,
                                  @RequestParam(value = "pwd", required = false) String pwd) {
-        if (account == null || account.length() == 0 || pwd == null || pwd.length() == 0)
+        if (account == null || account.isEmpty() || pwd == null || pwd.isEmpty())
             return new Result<>(ResultType.unfill_required_param);
         User one = userService.findUserByAccount(account);
         if (one == null) {

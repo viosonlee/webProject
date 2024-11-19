@@ -5,15 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3fe80823-ce62-496a-a96b-1163dc37420e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/spring-boot-demo.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/webproject.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/webproject/controllers/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/webproject/controllers/MainController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/webproject/controllers/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/webproject/controllers/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/webproject/hander/ExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/webproject/hander/ExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/webproject/interceptors/AuthenticationInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/webproject/interceptors/AuthenticationInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/webproject/result/ResultType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/webproject/result/ResultType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/webproject/services/PersonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/webproject/services/PersonService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/webproject/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/webproject/services/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/webproject/WebProjectApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/webproject/annotations/PassToken.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/webproject/annotations/UserLoginToken.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/webproject/config/InterceptorConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/webproject/controllers/MainController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/webproject/exceptions/TokenException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/webproject/hander/ExceptionHander.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/webproject/interceptors/AuthenticationInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/webproject/models/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/webproject/models/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/webproject/repositories/PersonRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/webproject/repositories/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/webproject/result/Result.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/webproject/result/ResultType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/webproject/services/PersonService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/webproject/services/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/webproject/utils/TokenCreator.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +114,12 @@
       <select />
     </treeState>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1280" />
     <option name="y" value="-702" />
@@ -159,24 +185,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RequestMappingsPanelOrder0" value="0" />
-    <property name="RequestMappingsPanelOrder1" value="1" />
-    <property name="RequestMappingsPanelWidth0" value="75" />
-    <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572423355946" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-    <property name="vue.rearranger.settings.migration" value="true" />
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/webProjects/spring-boot-demo",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
+    "应用程序.WebProjectApplication.executor": "Run"
+  }
+}]]></component>
+  <component name="QodanaReportsService">
+    <option name="descriptions">
+      <ReportDescription localRun="true" path="C:\Users\vs-rxw-lifeng\AppData\Local\Temp\qodana_output1\qodana.sarif.json" reportGuid="30ae46af-504b-4b52-9ab9-5066be55541a" reportId="spring-boot-demo/qodana/2024-11-19" />
+      <ReportDescription localRun="true" path="C:\Users\vs-rxw-lifeng\AppData\Local\Temp\qodana_output\qodana.sarif.json" reportGuid="0d395881-a030-4c30-9dd4-2aae7eb67e17" reportId="spring-boot-demo/qodana/2024-11-19" />
+    </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.WebProjectApplication">
+  <component name="RunManager">
     <configuration name="WebProjectApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.webproject.WebProjectApplication" />
-      <module name="webproject" />
+      <module name="web-project" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.webproject.*" />
@@ -187,16 +221,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WebProjectApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="web-project" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.webproject.WebProjectApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.WebProjectApplication" />
+        <item itemvalue="应用程序.WebProjectApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -258,12 +285,23 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/webproject/models/Person.java">

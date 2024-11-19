@@ -20,7 +20,7 @@ public class UserService {
             return null;
         }
         List<User> oneByAccount = userRepository.findOneByAccount(account);
-        if (oneByAccount == null || oneByAccount.size() == 0)
+        if (oneByAccount == null || oneByAccount.isEmpty())
             return null;
         return oneByAccount.get(0);
     }
@@ -29,7 +29,7 @@ public class UserService {
         if (StringUtils.isNullOrEmpty(token))
             return null;
         List<User> one = userRepository.findOneByToken(token);
-        if (one == null || one.size() == 0) return null;
+        if (one == null || one.isEmpty()) return null;
         return one.get(0);
     }
 

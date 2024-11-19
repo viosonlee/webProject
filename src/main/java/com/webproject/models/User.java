@@ -1,7 +1,5 @@
 package com.webproject.models;
 
-import jdk.nashorn.internal.objects.annotations.Getter;
-
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;

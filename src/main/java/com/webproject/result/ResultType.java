@@ -9,8 +9,8 @@ public enum ResultType {
     unkown_error(199, "未知系统错误"),
     ;
 
-    private int code;
-    private String message;
+    private final int code;
+    private final String message;
 
     ResultType(int code, String message) {
         this.code = code;

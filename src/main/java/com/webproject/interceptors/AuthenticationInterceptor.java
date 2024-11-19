@@ -5,19 +5,19 @@ import com.auth0.jwt.JWTVerifier;
 import com.auth0.jwt.algorithms.Algorithm;
 import com.auth0.jwt.exceptions.JWTDecodeException;
 import com.auth0.jwt.exceptions.JWTVerificationException;
-import com.auth0.jwt.interfaces.Verification;
 import com.webproject.annotations.PassToken;
 import com.webproject.annotations.UserLoginToken;
 import com.webproject.exceptions.TokenException;
 import com.webproject.models.User;
 import com.webproject.result.ResultType;
 import com.webproject.services.UserService;
+import jakarta.annotation.Nonnull;
+import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.lang.NonNull;
 import org.springframework.web.method.HandlerMethod;
 import org.springframework.web.servlet.HandlerInterceptor;
 
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
 import java.lang.reflect.Method;
 
 public class AuthenticationInterceptor implements HandlerInterceptor {
@@ -25,7 +25,7 @@ public class AuthenticationInterceptor implements HandlerInterceptor {
     private UserService userService;
 
     @Override
-    public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
+    public boolean preHandle(@NonNull HttpServletRequest request, jakarta.servlet.http.HttpServletResponse response, Object handler) throws Exception {
         if (!(handler instanceof HandlerMethod)) {   // 如果不是映射到方法直接通过
             return true;
         }
